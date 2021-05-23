@@ -106,7 +106,7 @@
                     "sections": 
 					[
                         {
-                            "section": "When you click Import, one project will be created in your workspace: An application named <span class='application'>Validate_Using_OAS_YAML</span>. <span class='application'>Validate_Using_Schema_JSON</span> provides a single message flow named <span class='application'>Validate_Using_Schema_JSON</span> which receives data using an HTTP Input node. This node is configured to expect a JSON message which conforms to the JSON Schema named <span class='resource'>ItemSchema.json</span>."
+                            "section": "When you click Import, one project will be created in your workspace: An application named <span class='application'>Validate_Using_Schema_JSON</span>. <span class='application'>Validate_Using_Schema_JSON</span> provides a single message flow named <span class='application'>Validate_Using_Schema_JSON</span> which receives data using an HTTP Input node. This node is configured to expect a JSON message which conforms to the JSON Schema named <span class='resource'>ItemSchema.json</span>."
                         },
                         {
                             "section": "The Input Message Parsing settings on the HTTP Input node are as follows:<br><b>Message domain:</b><code>JSON: For JavaScript Object Notation messages</code><br><b>Message model:</b><code>ItemSchema.json</code><br><b>Message:</b><code>&lt;blank&gt;</code><br><br>The node is configured to validate immediately when data arrives, and if the data is invalid, to throw an exception (in JSON format). Next the graphical mapping node generates a suitable reply which is returned using the HTTPReply node at the end of the flow."
